@@ -546,6 +546,7 @@
 					}
 
 					ul.icons li a:hover:before {
+						color: #3E97C3;
 						text-shadow: 1.25px 0px 0px #ff7496, -1.25px 0px 0px #ff7496, 0px 1.25px 0px #ff7496, 0px -1.25px 0px #ff7496;
 					}
 
@@ -705,7 +706,8 @@
 		max-width: 100%;
 		min-width: 27em;
 		padding: 4.5em 3em 3em 3em ;
-		background: #ffffff;
+		background: #rgba(255, 255, 255, 0.4);
+		/* was #fffff initially */
 		border-radius: 4px;
 		cursor: default;
 		opacity: 0.95;
